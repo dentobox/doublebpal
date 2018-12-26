@@ -1,0 +1,749 @@
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        카페팔 - 당신을 위한 주문 앱 | CafePal
+    </title>
+    <meta name="description" content="CafePal - 카페팔은 카페 창업자들에게 도움을 주고 소비자들에게 맛있는 커피를 소개해주는 플랫폼 입니다.">
+
+    <meta property="og:title" content="카페팔 - 당신을 위한 주문 앱">
+    <meta property="og:url" content="https://cafepal.co.kr">
+    <meta property="og:site_name" content="카페팔">
+    <meta property="og:image" content="https://res.cloudinary.com/cafepal/image/upload/v1542765837/cafepalb/fb-share-bg.png">
+    <meta property="og:description" content="CafePal - 카페팔은 카페 창업자들에게 도움을 주고 소비자들에게 맛있는 커피를 소개해주는 플랫폼 입니다.">
+
+    <!-- 트위터 메타테그  -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="카페팔 - 당신을 위한 주문 앱">
+    <meta property="twitter:description" content="CafePal - 카페팔은 카페 창업자들에게 도움을 주고 소비자들에게 맛있는 커피를 소개해주는 플랫폼 입니다.">
+    <meta name="twitter:image" content="images/og-image.jpg" />
+
+    <!-- 페이스북 메타테그  -->
+    <meta property="og:title" content="카페팔 - 당신을 위한 주문 앱">
+    <meta property="og:url" content="https://cafepal.co.kr/">
+    <meta property="og:site_name" content="카페팔">
+    <meta property="og:image" content="https://res.cloudinary.com/cafepal/image/upload/v1542765837/cafepalb/fb-share-bg.png">
+    <meta property="og:description" content="CafePal - 카페팔은 카페 창업자들에게 도움을 주고 소비자들에게 맛있는 커피를 소개해주는 플랫폼 입니다.">
+    <meta property="fb:app_id" content="2191648094409474">
+    <meta property="og:locale" content="ko_KR">
+
+    <!-- 메타태그 개별설정 -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="카페팔 - 당신을 위한 주문 앱" />
+    <meta property="og:site_name" content="카페팔(CafePal)" />
+    <meta property="og:description" content="CafePal - 카페팔은 카페 창업자들에게 도움을 주고 소비자들에게 맛있는 커피를 소개해주는 플랫폼 입니다." />
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/images/icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" href="/images/favicon/favicon-96x96.png">
+    <link rel="manifest" href="/images/icon/manifest.json">
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Hotjar Tracking Code -->
+		<script>
+            (function(h,o,t,j,a,r){
+              h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+               h._hjSettings={hjid:1060540,hjsv:6};
+               a=o.getElementsByTagName('head')[0];
+               r=o.createElement('script');r.async=1;
+              r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+              a.appendChild(r);
+             })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+          </script>
+
+     <!-- Google Analytics -->
+          <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-127412591-1', 'auto');
+        ga('send', 'pageview');
+        </script>
+      
+     <!-- Google Tag Manager -->
+      <script>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-5D6VF6T');
+      </script>
+     <!-- End Google Tag Manager -->
+      
+    <!-- Facebook Pixel Code -->
+      <script>
+      !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+      n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+      document,'script','https://connect.facebook.net/en_US/fbevents.js');
+      
+      fbq('init', '1930234667272875');
+      fbq('set','agent','tmgoogletagmanager', '1930234667272875');
+      fbq('track', "PageView");
+      </script>
+      <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1930234667272875&ev=PageView&noscript=1"
+      /></noscript>
+    <!-- End Facebook Pixel Code -->
+
+    <!-- Structured Data Schema -->
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "name": "카페팔",
+            "url": "https://cafepal.co.kr",
+            "sameAs": [
+                "https://www.cafepal.co.kr/news",
+                "https://www.cafepal.co.kr/cafes",
+                "https://www.cafepal.co.kr/faq",
+                "https://itunes.apple.com/kr/",
+                "https://play.google.com/store/apps/"
+            ]
+        }
+    </script>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5D6VF6T"
+        height="0" width="0" style="display:none;visibility:hidden">
+    </iframe>
+</noscript>
+    <div id="root">
+        <header id="navibar" class="top">
+            <nav class="wrapper">
+                <a href="https://cafepal.co.kr">
+                    <div id="toss-logo">
+                        <svg width="58px" height="18px" viewBox="0 0 58 17" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g id="toss-logo-fill" fill="#EA8C55">
+                                    <path d="M6.68208333,13.608 C8.03541667,13.608 9.23166667,13.224 10.1983333,12.54 L9.25583333,11.124 C8.56708333,11.688 7.685,12.024 6.68208333,12.024 C4.18083333,12.024 2.61,10.044 2.61,7.752 C2.61,5.46 4.18083333,3.492 6.68208333,3.492 C7.685,3.492 8.56708333,3.828 9.25583333,4.392 L10.1983333,2.976 C9.23166667,2.292 8.03541667,1.908 6.68208333,1.908 C3.1175,1.908 0.737083333,4.5 0.737083333,7.752 C0.737083333,11.028 3.1175,13.608 6.68208333,13.608 Z M18.1370833,5.436 L17.9075,6.54 C17.29125,5.736 16.34875,5.232 15.11625,5.232 C13.0379167,5.232 11.3825,6.828 11.3825,9.408 C11.3825,12 13.0379167,13.572 15.11625,13.572 C16.3366667,13.572 17.2670833,13.068 17.8833333,12.264 L18.1370833,13.38 L19.53875,13.38 L19.53875,5.436 L18.1370833,5.436 Z M15.5270833,12.144 C14.0770833,12.144 13.1225,10.968 13.1225,9.408 C13.1225,7.86 14.0770833,6.66 15.5270833,6.66 C17.0254167,6.66 17.9920833,7.86 17.9920833,9.408 C17.9920833,10.968 17.0254167,12.144 15.5270833,12.144 Z M24.6741667,2.64 C24.90375,2.64 25.19375,2.724 25.4595833,2.916 L26.20875,1.68 C25.6408333,1.344 25.1575,1.188 24.4929167,1.188 C23.0670833,1.188 22.0641667,2.172 22.0641667,4.08 L22.0641667,5.436 L21.0008333,5.436 L21.0008333,6.804 L22.0641667,6.804 L22.0641667,13.38 L23.7558333,13.38 L23.7558333,6.804 L25.4233333,6.804 L25.4233333,5.436 L23.7558333,5.436 L23.7558333,3.948 C23.7558333,3.18 23.9854167,2.64 24.6741667,2.64 Z M34.3408333,9.24 C34.3408333,6.876 32.7458333,5.232 30.41375,5.232 C28.02125,5.232 26.2933333,7.068 26.2933333,9.408 C26.2933333,11.76 27.9970833,13.572 30.63125,13.572 C31.9966667,13.572 33.16875,13.104 33.8816667,12.3 L32.7095833,11.352 C32.19,11.928 31.50125,12.228 30.6070833,12.228 C29.10875,12.228 28.2145833,11.196 28.09375,9.78 L34.3408333,9.78 L34.3408333,9.24 Z M30.41375,6.6 C31.6704167,6.6 32.48,7.344 32.6491667,8.604 L28.1541667,8.604 C28.4079167,7.404 29.2295833,6.6 30.41375,6.6 Z M40.41875,5.232 C39.2225,5.232 38.3041667,5.724 37.6758333,6.504 L37.5308333,5.436 L36.0325,5.436 L36.0325,17.064 L37.7483333,17.064 L37.7483333,12.384 C38.3645833,13.128 39.25875,13.572 40.41875,13.572 C42.4970833,13.572 44.1645833,12 44.1645833,9.408 C44.1645833,6.828 42.4970833,5.232 40.41875,5.232 Z M40.02,12.144 C38.5216667,12.144 37.555,10.968 37.555,9.408 C37.555,7.86 38.5216667,6.66 40.02,6.66 C41.4579167,6.66 42.4125,7.86 42.4125,9.408 C42.4125,10.968 41.4579167,12.144 40.02,12.144 Z M52.1395833,5.436 L51.91,6.54 C51.29375,5.736 50.3633333,5.232 49.1308333,5.232 C47.0525,5.232 45.3970833,6.828 45.3970833,9.408 C45.3970833,12 47.0525,13.572 49.1308333,13.572 C50.3391667,13.572 51.2816667,13.068 51.8979167,12.264 L52.1395833,13.38 L53.5533333,13.38 L53.5533333,5.436 L52.1395833,5.436 Z M49.5295833,12.144 C48.0916667,12.144 47.1370833,10.968 47.1370833,9.408 C47.1370833,7.86 48.0916667,6.66 49.5295833,6.66 C51.0279167,6.66 52.0066667,7.86 52.0066667,9.408 C52.0066667,10.968 51.0279167,12.144 49.5295833,12.144 Z M55.7404167,13.38 L57.4441667,13.38 L57.4441667,1.488 L55.7404167,1.488 L55.7404167,13.38 Z" id="Cafepal"></path>
+                            </g>
+                        </svg>
+                    </div>
+                </a>
+                <ul id="menu">
+                        <a href="https://www.cafepal.co.kr/news" class="active">
+                            <li class="item">블로그</li>
+                        </a>
+                        <a href="https://www.cafepal.co.kr/cafes">
+                            <li class="item">카페</li>
+                        </a>
+                        <a href="https://www.cafepal.co.kr/roasteries">
+                            <li class="item">로스터리</li>
+                        </a>
+                        <a href="https://www.cafepal.co.kr/faq">
+                            <li class="item">FAQ</li>
+                        </a>
+                        <a href="https://www.cafepal.net">
+                            <li class="item">사장님이세요?</li>
+                        </a>
+                    </ul>
+            </nav>
+        </header>
+<!-- 모바일 페이지용 다운로드 링크 -->
+<a href="https://itunes.apple.com/kr/genre/ios-음식-및-음료/">
+    <div id="mobile-appdown-button" class="bottom-app-download hide-on-pc">
+      앱 다운로드
+    </div>
+  </a>
+<!-- 페이지 나누기 -->
+
+        <!-- 커버페이지 -->
+        <div class="page cover">
+            <div class="bottom-dimm"></div>
+            <div class="wrapper">
+                <div class="content">
+                    <h1 class="texts">
+                            카페팔, 당신을 위한 주문 앱
+                    </h1>
+                    <div class="download hide-on-mobile">
+                        <a class="download_button" href="https://play.google.com/store/apps/details?id=viva.republica.toss">
+                            <img src="/images/icons/icon_google.png" alt="Google Play Icon" srcset="/images/icons/icon_google@2x.png 2x, ./images/icons/icon_google@3x.png 3x">
+                            Google Play
+                        </a>
+                        <a class="download_button" href="https://itunes.apple.com/kr/app/">
+                            <img src="/images/icons/icon_apple.png" alt="App Store Icon" srcset="/images/icons/icon_apple@2x.png 2x, /images/icons/icon_apple@3x.png 3x">
+                            App Store
+                        </a>
+                    </div>
+                </div>
+                <div class="downarrow">
+                    <img src="images/down_arrow.png">
+                </div>
+            </div>
+        </div>
+
+        <div class="page insurance-banner">
+            <a href="https://www.cafepal.net/">
+                <div class="wrapper">
+                    <div class="texts">
+                        <div class="title">카페 사장님이세요?</div>
+                        <div class="subtitle">등록하시고 혜택을 받으세요! <img class="arrow-image" src=""></div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- 앱 기능-->
+        <div class="text-center" style="">
+            <video loop controls width="100%">
+                <source src="./video/cafepalapp.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <!-- 앱 소개 -->
+        <div class="page psr p2">
+            <div class="wrapper">
+                <div class="content">
+                    <h2 class="texts txtsr">
+                        기능도 풍부한
+                        <br> 
+                        주문앱 카페팔
+                    </h2>
+
+                    <div class="image">
+                            <div class="device sr">
+                                    <img class="effect" src="img/transfer_effect.png">
+                                    <img class="" src="img/device_page1.png" alt="Phone Default">
+                                    <div class="screens">
+                                      <img class="item active" style="z-index: 1;" src="/img/p1_screen01.png" alt="카페팔 간편결제 화면">
+                                      <img class="item" src="/img/p1_screen02.png" alt="카페팔 미리주문 화면">
+                                      <img class="item" src="/img/p1_screen04.png" alt="카페팔 포인트쌓기 화면">
+                                      <img class="item" src="/img/p1_screen03.png" alt="카페팔 카페팔지점 화면">
+                                      <img class="item" src="/img/p1_screen05.png" alt="카페팔 카페팔시작 화면"> 
+                                    </div>
+                        </div>
+
+                    </div>
+
+                    <div class="features">
+                        <ul>
+                                <li class="item active">간편결제</li>
+                                <li class="item">미리주문</li>
+                                <li class="item">포인트 쌓기</li>
+                                <li class="item">카페 검색</li>
+                                <li class="item">시작</li>
+                        </ul>
+                    </div>
+
+                    <div class="desc">
+                            <div class="con active">
+                                지갑이 없어도 핸드폰으로 간편 결제하세요.
+                            </div>
+                            <div class="con">
+                                    미리 주문하셔서 스마트하게 픽업하세요..
+                            </div>
+                            <div class="con">
+                                    커피 전문점에 싫증이 나셨나요? <br>
+                                    색다르고 맛있는 원두를 경험해 보고 싶나요? <br>
+                                    동네 카페들을 지도를 사용해서 찾아보세요. 
+                            </div>
+                            <div class="con">
+                                    제일 좋아하는 카페를 등록하고 단골로 이용해보세요.<br>
+                                    많이 주문하면 포인트도 쌓입니다.
+                            </div>
+                        <div class="con">
+                                지금 시작해보세요!
+                            </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- 보험 소개 -->
+        <div class="page psr insurance">
+            <div class="wrapper">
+                <div class="content">
+                    <h2 class="texts txtsr">
+                        이용하기 쉬운
+                        <br>
+                        주문앱 카페팔
+                    </h2>
+
+                    <div class="image">
+                        <div class="device sr">
+                            <img class="" src="img/device_page2.png" alt="Phone Default">
+                            <div class="screens">
+                                    <img class="item active" style="z-index: 1;" src="img/introduce_1.png" alt="숨은 카페 찾기 화면">
+                                    <img class="item" src="img/introduce_2.png" alt="가까운 카페 화면">
+                                    <img class="item" src="img/introduce_3.png" alt="취향 저격하기 화면">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="features">
+                        <ul>
+                            <li class="item active">숨은 카페 찾기</li>
+                            <li class="item">가까운 카페</li>
+                            <li class="item">취향 저격하기</li>
+                        </ul>
+                    </div>
+
+                    <div class="desc">
+                        <div class="con active">
+                                동네 뒷골목에 있는 카페
+                            <br>지금 찾아보세요.
+                        </div>
+                        <div class="con">
+                                대한민국 어디든
+                            <br>내 주변에 있는 카페를 찾아보세요.
+                        </div>
+                        <div class="con">
+                                여러가지 필터들을 사용해서 내가 원하는 카페를
+                            <br>이제 카페팔에서 찾을 수 있어요.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 계좌조회 소개 -->
+        <div class="page psr p3">
+            <div class="wrapper">
+                <div class="content">
+                    <h2 class="texts txtsr">
+                        모든 카페가 모이는
+                        <br>
+                        주문앱 카페팔
+                    </h2>
+                    <div class="desc">
+                        앱 하나로 
+                        <br>대한민국 카페를 모두 정복하세요.
+                    </div>
+                    <div class="banks">
+                        <ul>
+                            <li class="item">
+                                <img src="images/city/seoul_logo.png" alt="서울특별시 로고">
+                                <div class="text">
+                                    <div class="name">서울특별시</div>
+                                    <div class="balance">52곳</div>
+                                </div>
+                            </li>
+                            <li class="item">
+                                <img src="images/city/busan_logo.png" alt="부산광역시 로고">
+                                <div class="text">
+                                    <div class="name">부산광역시</div>
+                                    <div class="balance">25곳</div>
+                                </div>
+                            </li>
+                            <li class="item">
+                                <img src="images/city/incheon_logo.png" alt="인천광역시 로고">
+                                <div class="text">
+                                    <div class="name">인천광역시</div>
+                                    <div class="balance">33곳</div>
+                                </div>
+                            </li>
+                            <li class="item hide-on-mobile">
+                                <img src="images/city/daegu_logo.png" alt="대구광역시 로고">
+                                <div class="text">
+                                    <div class="name">대구광역시</div>
+                                    <div class="balance">29곳</div>
+                                </div>
+                            </li>
+                            <li class="item hide-on-mobile">
+                                <img src="images/city/guitar_logo.png" alt="전국 로고">
+                                <div class="text">
+                                    <div class="name">기타</div>
+                                    <div class="balance">61곳</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="button">
+                    <button type="button" name="button" id="show-banklist-button">지원 지역 모두보기</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 지원 은행 리스트 -->
+        <div class="page" id="banklist">
+            <div class="wrapper">
+                <ul>
+                    <li>
+                        <img src="new_assets/banks01.png" alt="지원 은행 목록 : 카카오뱅크, 농협은행, 국민은행, 신한은행, 우리은행, 하나은행, 기업은행">
+                    </li>
+                    <li>
+                        <img src="new_assets/banks02.png" alt="지원 은행 목록 : 제일은행, 새마을금고, 산업은행, 외환은행, 신협, 우체국, 수협은행">
+                    </li>
+                    <li>
+                        <img src="new_assets/banks03.png" alt="지원 은행 목록 : 제주은행, 부산은행, 경남은행, 광주은행, 전북은행, 대구은행, 미래에셋대우">
+                    </li>
+                    <li>
+                        <img src="new_assets/banks04.png" alt="지원 증권사 목록 : 신한금융투자, 삼성증권, 유진투자증권, NH투자증권, 대신증권, 메리츠종금증권">
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 카드조회 소개 -->
+        <div class="page psr card-inquiry">
+            <div class="wrapper">
+                <div class="content">
+                    <div class="title">
+                        <h2 class="texts txtsr">
+                            완벽한 결제까지 책임지는
+                            <br>
+                            주문앱 카페팔
+                        </h2>
+                        <div class="desc">
+                            매월 말 사용한 만큼
+                            <br>요금이 청구됩니다.
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="badge hide-on-mobile">이번 달 카페팔</div>
+                        <div class="total hide-on-mobile">77,400원</div>
+                        <ul>
+                            <li class="item">
+                                <img src="images/banking/card_01.png" alt="커피집">
+                                <div class="text">
+                                    <div class="name">커피집</div>
+                                    <div class="balance">33,800원</div>
+                                </div>
+                            </li>
+                            <li class="item">
+                                <img src="images/banking/card_02.png" alt="즐거운 한 잔">
+                                <div class="text">
+                                    <div class="name">즐거운 한 잔</div>
+                                    <div class="balance">22,200원</div>
+                                </div>
+                            </li>
+                            <li class="item">
+                                <img src="images/banking/card_03.png" alt="메이슨 테너 하우스">
+                                <div class="text">
+                                    <div class="name">메이슨 테너 하우스</div>
+                                    <div class="balance">21,400원</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- 신용 관리 -->
+        <div class="page psr p4">
+            <div class="wrapper">
+                <div class="content">
+                    <h2 class="texts txtsr">
+                        메뉴까지 보고 가자
+                        <br>
+                        주문앱 카페팔
+                    </h2>
+
+                    <div class="image">
+                        <div class="device sr">
+                            <img class="" src="new_assets/device.png" alt="아이폰 목업이미지">
+                            <div class="screens">
+                                <img class="item active" style="z-index: 1;" src="new_assets/credit_1.png" alt="신용등급조회 화면">
+                                <img class="item" src="new_assets/credit_2.png" alt="대출 맞춤추천 화면">
+                                <img class="item" src="new_assets/credit_3.png" alt="신용 현황 화면">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="features">
+                        <ul>
+                                <li class="item active">음료 메뉴</li>
+                                <li class="item">음식/간식 메뉴</li>
+                                <li class="item">가격</li>
+                        </ul>
+                    </div>
+
+                    <div class="desc">
+                            <div class="con active">
+                                    더이상 포털사이트에서 메뉴를 찾아보지 마세요.
+                                  </div>
+                                  <div class="con">
+                                    음료는 물론이고 해당 카페에서 제공하는 음식까지 볼 수있어요.
+                                  </div>
+                                  <div class="con">
+                                    해당 음료의 사이즈, 가격대로 한눈에 볼 수 있어요.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-dimm"></div>
+        </div>
+
+        <!-- 토스 서비스 -->
+        <div class="page psr p5">
+            <div class="wrapper">
+                <div class="content">
+                        <h2 class="texts txtsr">
+                                소상공인들을 위한
+                                <br>
+                                주문앱 카페팔
+                              </h2>
+                              <div class="desc">
+                                카페 창업을 준비하고 계시거나 창업을 했는데 막막하시나요?
+                                <br>카페팔이 처음부터 끝까지 함께합니다. 
+                    </div>
+                </div>
+            </div>
+            <div class="services">
+                <div class="item left">
+                    <div class="content">
+                        <div class="title">
+                                카페팔 사장님페이지 가입
+                            </div>
+                            <div class="desc">
+                              인테리어부터 결제방식까지 카페팔이 책임지며,
+                              <br> 이 모든것은 카페팔 앱과 든든한 팀이 도와드립니다.
+                            <!-- TODO: 이 모든 것이 토스 계좌 개설로 가능해집니다.  -->
+                        </div>
+                        <div class="image sr">
+                            <img class="invest1" src="new_assets/toss_plus.png" alt="이자 받는 토스 계좌 개설 화면">
+                        </div>
+                    </div>
+                </div>
+                <div class="item right">
+                    <div class="content">
+                        <div class="title">
+                            카페 인테리어
+                            </div>
+                            <div class="desc">
+                            인테리어 많이 부담되시나요?
+                              <br> 카페팔이 리스크없이 해결해드립니다.
+                        </div>
+                        <div class="image sr">
+                            <img class="invest2" src="new_assets/realestate.png" alt="평균 수익률 12.5%, 평균 투자기간 8.4개월, 부실률 0%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="services">
+                <div class="item left">
+                    <div class="content">
+                        <div class="title">
+                                카페 마케팅
+                            </div>
+                            <div class="desc">
+                              카페 마케팅 어디서부터 할지 막막하시나요?
+                              <br> 카페팔은 풍부한 전문적인 지식으로 카페가 더욱 번창하게 도와드립니다. 
+                        </div>
+                        <div class="image sr">
+                            <img class="invest4" src="new_assets/invest.png" alt="공격 투자형 목표 수익률 10.48%, 균형 투자형 목표 수익률 9,27% 이미지">
+                        </div>
+                    </div>
+                </div>
+                <div class="item right">
+                    <div class="content">
+                        <div class="title">
+                                카페 결제방식
+                            </div>
+                            <div class="desc">
+                              손님들이 앱 하나로 쉽게 카페를 찾고 
+                              <br>결제까지 할 수 있습니다. 
+                        </div>
+                        <div class="image sr">
+                            <img class="invest3" src="new_assets/bitcoin.png" alt="비트코인, 비트코인캐시 시세 이미지">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- 토스 결제, ATM -->
+        <div class="page psr p6">
+            <div class="wrapper">
+                <div class="content">
+                    <h2 class="texts txtsr">
+                            모두와 소통하는
+                            <br>
+                            주문앱 카페팔
+                    </h2>
+                    <div class="desc">
+                    </div>
+                    <div class="store-list">
+                        <ul>
+                            <li class="item">
+                                    <img src="new_assets/conv_01.png" alt="네이버블로그 로고">
+                                </li>
+                                <li class="item">
+                                  <img src="new_assets/conv_02.png" alt="인스타그램 로고">
+                                </li>
+                                <li class="item">
+                                  <img src="new_assets/conv_04.png" alt="페이스북 로고">
+                                </li>
+                                <li class="item">
+                                  <img src="new_assets/conv_05.png" alt="유튜브 로고">
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="image">
+                        <img class="wallet_image sr" src="new_assets/wallet.png" alt="지갑 이미지">
+                        <img class="wallet_device_image sr" src="new_assets/wallet_device.png" alt="토스 현금 찾기 화면">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 토스 결제 가맹점 -->
+        <div class="page psr p7">
+            <div class="wrapper">
+                <a href="https://toss.im/pay/" target="_blank">
+                    <button type="button" name="button" id="pay-service-button">
+                        결제 가맹점 가입
+                        <svg width="9px" height="16px" viewBox="0 0 9 12" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g stroke-width="2" stroke="#FFFFFF">
+                                <polyline id="Path-7" points="1 1 7.3644842 7.30785875 1 13.6157175"></polyline>
+                            </g>
+                        </svg>
+                    </button>
+                </a>
+                <div class="content">
+                    <h2 class="texts txtsr">
+                            모든 결제를 책임지는
+                            <br>
+                          주문앱 카페팔
+                          </h2>
+                          <div class="desc">
+                          지갑 가져오는 것을 까먹으셨나요? 
+                            <br>걱정마세요! 카드나 현금없이 핸드폰으로 음료, 음식까지 결제하세요.
+                    </div>
+                    <div class="logos hide-on-mobile">
+                        <img src="https://static.toss.im/assets/common/image/pay_logo.png" alt="결제 제휴사 로고">
+                    </div>
+                    <div class="image sr hide-on-mobile">
+                        <img src="new_assets/pay.png" alt="토스결제 비밀번호 입력 이미지">
+                    </div>
+                    <div class="image sr hide-on-pc">
+                        <img src="https://static.toss.im/assets/common/image/pay_mobile.png" alt="결제 제휴사 로고">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 푸터 다운로드 링크 -->
+        <div class="page psr app-download">
+            <div class="wrapper">
+                <div class="left">
+                        카페팔을 지금 사용해보세요
+                </div>
+                <div class="right">
+                    <a class="download_button" href="https://play.google.com/store/apps/">
+                        <img src="./images/icons/icon_google.png" alt="Google Play Icon" srcset="./images/icons/icon_google@2x.png 2x, ./images/icons/icon_google@3x.png 3x">
+                        Google Play
+                    </a>
+                    <a class="download_button" href="https://itunes.apple.com/kr/app/">
+                        <img src="./images/icons/icon_apple_dark.png" alt="App Store Icon" srcset="./images/icons/icon_apple_dark@2x.png 2x, ./images/icons/icon_apple_dark@3x.png 3x">
+                        App Store
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <footer class="page">
+            <div class="wrapper">
+                <div class="list introduction">
+                    <div class="list-title">
+                        안내
+                    </div>
+                    <ul>
+                        <li><a href="https://toss.im/notice">공지사항</a></li>
+                        <li><a href="https://toss.im/faq">자주 묻는 질문</a></li>
+                        <li><a href="https://toss.im/suspend">계정 일시 정지</a></li>
+                        <li><a href="https://toss.im/announcement">공고</a></li>
+                    </ul>
+                </div>
+                <div class="list introduction">
+                    <div class="list-title">
+                        팀
+                    </div>
+                    <ul>
+                        <li><a href="https://medium.com/cafepal">Toss블로그</a></li>
+                        <li><a href="https://team.toss.im/?section=press">언론 · 미디어</a></li>
+                        <li><a href="https://angel.co/cafepal">채용</a></li>
+                    </ul>
+                </div>
+                <div class="list introduction">
+                    <div class="list-title">
+                        기타 문의
+                    </div>
+                    <ul>
+                        <li><a href="mailto:cafepalfriends@gmail.com">비지니스 · 제휴</a></li>
+                        <li><a href="mailto:cafepalkorea@@gmail.com">마케팅 · PR</a></li>
+                    </ul>
+                </div>
+                <div class="list introduction" id="customer">
+                    <div class="list-title">
+                        고객센터
+                    </div>
+                    <ul>
+                        <li>전화 : <a href="tel:(+1)9495451375"><strong>1599-4905</strong></a>(24시간 연중무휴)</li>
+                        <li>이메일 : <a href="mailto:cafepalkorea@gmail.com"><strong>hello@cafepal.co.kr</strong></a></li>
+                        <li>카카오톡 : <a href="http://goto.kakao.com/@cafepal"><strong>@toss</strong></a></li>
+                    </ul>
+                </div>
+
+                <div class="company">
+                    <div class="name">
+                        ⓒ CafePal Company
+                    </div>
+                    <div class="infos">
+                        카페팔컴퍼니<span>|</span><span>|</span>대표 : 다니엘 한<br>
+                        <span>|</span>서초역 3번출구 앞
+                    </div>
+                    <div class="terms">
+                        <a href="https://toss.im/terms/">토스 이용약관</a><span>|</span>
+                        <a href="https://toss.im/privacy/safety">이용자의 권리 및 유의사항</a><span>|</span>
+                        <a href="https://toss.im/privacy/"><strong>개인정보 처리방침</strong></a>
+                    </div>
+                </div>
+
+                <div class="links">
+                        <ul>
+                                <li class="blog">
+                                    <a href="https://www.medium.com/cafepalkorea"><img src="new_assets/ico_blog.png" alt="블로그"></a>
+                                </li>
+                                <li class="fb">
+                                    <a href="https://www.facebook.com/cafepalkorea/"><img src="new_assets/ico_fb.png" alt="공식 페이스북"></a>
+                                </li>
+                                <li class="post">
+                                    <a href="https://post.naver.com/cafepalblog"><img src="new_assets/ico_naverpost.png" alt="공식 인스타그램"></a>
+                                </li>
+                                <li class="twitter">
+                                    <a href="https://youtube.com/cafepal"><img src="new_assets/ico_youtube.png" alt="공식 유튜브"></a>
+                                </li>
+                                </ul>
+                </div>
+            </div>
+        </footer>
+
+
+    </div>
+    <script src="/assets/vendor.js" charset="utf-8"></script>
+    <script src="/assets/app.js" charset="utf-8"></script>
+</body>
+
+</html>

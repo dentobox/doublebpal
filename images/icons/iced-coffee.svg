@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>iced-coffee</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="iced-coffee" stroke="#403D58">
+            <g id="Page-1" transform="translate(5.000000, 1.000000)">
+                <polyline id="Stroke-1" points="9.2412 21.5217391 3.6162 21.5217391 2.0062 10.9387826 11.9942 10.9387826 10.7862 21.5217391"></polyline>
+                <path d="M7,4.35475652 C3.41,4.35475652 0.5,7.30275652 0.5,10.9384957 L13.5,10.9384957 C13.5,7.30275652 10.59,4.35475652 7,4.35475652 Z" id="Stroke-3"></path>
+                <path d="M6.8955,4.2502087 L6.8955,1.44377391 C6.8955,0.910991304 7.3475,0.478643478 7.9055,0.478643478 L10.7815,2.24629565" id="Stroke-5"></path>
+            </g>
+        </g>
+    </g>
+</svg>

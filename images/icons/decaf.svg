@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>decaf</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="decaf" stroke="#403D58">
+            <g id="Page-1" transform="translate(3.000000, 2.000000)">
+                <path d="M17,10.5 C17,16.023 13.643,20.5 9.5,20.5 C5.357,20.5 2,16.023 2,10.5 C2,4.977 5.357,0.5 9.5,0.5 C13.643,0.5 17,4.977 17,10.5 Z" id="Stroke-1"></path>
+                <path d="M0.5,1.5 L18.5,19.5" id="Stroke-3"></path>
+                <path d="M10.9316,2.8413 C8.1756,5.4793 7.2196,9.4493 8.5276,12.8313 C9.2046,14.5833 10.4206,16.1383 11.2476,17.8413 C11.5566,18.4753 11.8066,19.1543 11.9496,19.8413" id="Stroke-5"></path>
+            </g>
+        </g>
+    </g>
+</svg>

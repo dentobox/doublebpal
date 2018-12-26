@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>wifi</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="wifi" stroke="#403D58">
+            <g id="Page-1" transform="translate(0.000000, 3.000000)">
+                <path d="M7.3623,11.9814 C9.9243,9.4524 14.0763,9.4524 16.6373,11.9814" id="Stroke-1"></path>
+                <path d="M13.3711,15.1909 C14.1281,15.9479 14.1281,17.1749 13.3711,17.9319 C12.6131,18.6899 11.3871,18.6899 10.6291,17.9319 C9.8721,17.1749 9.8721,15.9479 10.6291,15.1909 C11.3871,14.4339 12.6131,14.4339 13.3711,15.1909 Z" id="Stroke-3"></path>
+                <path d="M3.9316,8.5928 C8.3876,4.1918 15.6126,4.1918 20.0686,8.5928" id="Stroke-5"></path>
+                <path d="M0.5,5.2041 C6.852,-1.0679 17.148,-1.0679 23.5,5.2041" id="Stroke-7"></path>
+            </g>
+        </g>
+    </g>
+</svg>
